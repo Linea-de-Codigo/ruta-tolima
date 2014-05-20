@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ruta Tolima</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mapas">Mapa</string>
+    <string name="txta">ESTACION DE SERVICIO</string>
+    <string name="txtb">PEAJE</string>
+    <string name="txtc">SERVICIO AUTOMOTRIZ</string>
+    <string name="txtd">ZONA DE DERUMBE</string>
+    <string name="txte">ZONA DE ALTA ACCIDENTABILIDAD</string>
+    <string name="btnlogin">Acceder</string>
+    <string name="bntregistro">Registrarse</string>
+
+</resources>

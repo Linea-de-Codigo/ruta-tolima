@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_login">Bienvenido</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_register"><b>Sign in</b>Registrate</string>
+    <string name="action_sign_in_short">Acceder</string>
+    <string name="action_forgot_password">Recuoerar tu contraseña</string>
+    <string name="login_progress_signing_in">Accediendo...</string>
+    <string name="error_invalid_email">Tu correo no es valido</string>
+    <string name="error_invalid_password">Tu contraseña es muy corta</string>
+    <string name="error_incorrect_password">Tu contraseña es incorrecta</string>
+    <string name="error_field_required">Campo requerido</string>
+
+</resources>
