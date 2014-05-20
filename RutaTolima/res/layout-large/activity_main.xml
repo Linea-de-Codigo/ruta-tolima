@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:scaleType="fitXY"
+        android:onClick="pasarmapa"
         android:src="@drawable/a" />
 
     <ImageView
@@ -40,6 +41,7 @@
         android:layout_alignLeft="@+id/imageView1"
         android:layout_below="@+id/imageView1"
         android:layout_marginBottom="10dp"
+        android:onClick="pasarmapa"
         android:src="@drawable/b" />
 
     <ImageView
