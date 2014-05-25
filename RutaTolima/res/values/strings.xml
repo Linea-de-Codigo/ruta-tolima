@@ -11,5 +11,13 @@
     <string name="txte">ZONA DE ALTA ACCIDENTABILIDAD</string>
     <string name="btnlogin">Acceder</string>
     <string name="bntregistro">Registrarse</string>
+    <string name="txtaa">ESTACION</string>
+    <string name="txtab">DE SERVICIO</string>
+    <string name="txtca">SERVICIO</string>
+    <string name="txtda">ZONA</string>
+    <string name="txtdb">DE DERUMBE</string>
+    <string name="txtcb">AUTOMOTRIZ</string>
+    <string name="txtea">ZONA DE ALTA</string>
+    <string name="txteb">ACCIDENTABILIDAD</string>
 
 </resources>

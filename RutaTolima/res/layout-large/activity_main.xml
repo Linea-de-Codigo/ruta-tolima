@@ -30,9 +30,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:scaleType="fitXY"
         android:onClick="pasarmapa"
-        android:src="@drawable/a" />
+        android:scaleType="fitXY"
+        android:src="@drawable/ahd" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -74,13 +74,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignLeft="@+id/snippet"
         android:layout_alignTop="@+id/imageView2"
         android:layout_marginTop="26dp"
         android:text="@string/txtb" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/snippet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1"
