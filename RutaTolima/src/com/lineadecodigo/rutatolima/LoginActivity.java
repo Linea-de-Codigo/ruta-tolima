@@ -1,6 +1,7 @@
-package co.linea.rutatolima;
+package com.lineadecodigo.rutatolima;
 
 
+import co.linea.rutatolima.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

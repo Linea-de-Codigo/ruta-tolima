@@ -30,7 +30,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="co.linea.rutatolima.SplashScreenActivity"
+            android:name="com.lineadecodigo.rutatolima.SplashScreenActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,15 +40,15 @@
         </activity>
         
         <activity
-            android:name="co.linea.rutatolima.LoginActivity"
+            android:name="com.lineadecodigo.rutatolima.LoginActivity"
             android:label="@string/app_name" >
         </activity>
          <activity
-            android:name="co.linea.rutatolima.MainActivity"
+            android:name="com.lineadecodigo.rutatolima.MainActivity"
             android:label="@string/app_name" >
         </activity>
          <activity
-            android:name="co.linea.rutatolima.Mapas"
+            android:name="com.lineadecodigo.rutatolima.Mapas"
             android:label="@string/app_name" >
         </activity>
 

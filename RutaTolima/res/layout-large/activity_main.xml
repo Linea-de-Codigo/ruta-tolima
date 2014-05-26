@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="co.linea.rutatolima.MainActivity"
+    tools:context="com.lineadecodigo.rutatolima.MainActivity"
     tools:ignore="MergeRootFrame" >
 
 <RelativeLayout
@@ -32,7 +32,8 @@
         android:layout_margin="10dp"
         android:onClick="pasarmapa"
         android:scaleType="fitXY"
-        android:src="@drawable/ahd" />
+        android:src="@drawable/ahd" 
+        android:contentDescription="Fondo"/>
 
     <ImageView
         android:id="@+id/imageView2"

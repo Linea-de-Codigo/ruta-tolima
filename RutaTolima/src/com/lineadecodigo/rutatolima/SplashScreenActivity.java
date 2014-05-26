@@ -1,7 +1,9 @@
-package co.linea.rutatolima;
+package com.lineadecodigo.rutatolima;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import co.linea.rutatolima.R;
  
 import android.app.Activity;
 import android.content.Intent;

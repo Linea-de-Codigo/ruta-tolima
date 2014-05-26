@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:contentDescription="@string/app_name"
         android:scaleType="fitXY"
-        android:src="@drawable/hdfnd" />
+        android:src="@drawable/vfnd" />
    
 </RelativeLayout>
 
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:src="@drawable/ahd" />
+        android:src="@drawable/a" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -85,32 +85,30 @@
         android:text="@string/txta" />
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:text="@string/txtc" />
+
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView3"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_marginBottom="16dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginTop="26dp"
         android:text="@string/txtd" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView4"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_marginBottom="26dp"
-        android:layout_marginLeft="11dp"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/imageView1"
         android:text="@string/txte" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView5"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_marginBottom="21dp"
-        android:text="@string/txtc" />
 
 </RelativeLayout>
 
