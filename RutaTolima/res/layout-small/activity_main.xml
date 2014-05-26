@@ -6,118 +6,66 @@
     tools:context="com.lineadecodigo.rutatolima.MainActivity"
     tools:ignore="MergeRootFrame" >
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
 
-    <ImageView
+      <ImageView
 	    android:id="@+id/fnd"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
 	    android:contentDescription="@string/app_name"
 	    android:scaleType="fitXY"
-	    android:src="@drawable/vb" />
+	    android:src="@drawable/vb" />   
+
+    </LinearLayout>
     
-   
-</RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="20dp"
-        android:onClick="pasarmapa"
-        android:src="@drawable/sa" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_below="@+id/imageView3"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/sd" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView5"
-        android:layout_below="@+id/imageView5"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/se" />
-
-    <TextView
-        android:id="@+id/snippet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_marginLeft="28dp"
-        android:layout_toRightOf="@+id/imageView2"
-        android:text="@string/txtb"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/snippet"
-        android:layout_alignTop="@+id/imageView1"
-        android:text="@string/txta"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/snippet"
-        android:layout_alignTop="@+id/imageView3"
-        android:text="@string/txtc"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView7"
-        android:layout_alignTop="@+id/imageView5"
-        android:text="@string/txtd"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView6"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/imageView6"
-        android:text="@string/txte"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/sb" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/sc" />
-
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+	        android:layout_height="0dp"
+            android:src="@drawable/ahd"
+            android:onClick="pasarmapa"
+            android:layout_weight="1" />
+		
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="pasarmapa"
+            android:src="@drawable/bhd" />
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="pasarmapa"
+            android:src="@drawable/chd" />
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="pasarmapa"
+            android:src="@drawable/dhd" />
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="pasarmapa"
+            android:src="@drawable/ehd" />
+        
+    </LinearLayout>
 
 </FrameLayout>

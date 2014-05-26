@@ -1,14 +1,91 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context="com.lineadecodigo.rutatolima.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <ImageView
+	    android:id="@+id/fnd"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/vb" />
 
-    <Button
-        android:id="@+id/btn1"
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="pasar"
-        android:text="Button" />
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/txtla"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45dp" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/txtld"
+        android:onClick="pasar"
+        android:textSize="45dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginBottom="74dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="@string/txtlb"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:text="@string/txtlc"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+
+</RelativeLayout>
+
+
+
+</FrameLayout>

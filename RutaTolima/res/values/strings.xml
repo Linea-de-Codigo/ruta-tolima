@@ -19,5 +19,8 @@
     <string name="txtcb">AUTOMOTRIZ</string>
     <string name="txtea">ZONA DE ALTA</string>
     <string name="txteb">ACCIDENTABILIDAD</string>
-
+	<string name="txtla">USUARIO</string>
+	<string name="txtlb">CONTRASEÑA</string>
+	<string name="txtlc">OLVIDE MI CONTRASEÑA</string>
+	<string name="txtld">INICIAR</string>
 </resources>
