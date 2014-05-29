@@ -23,5 +23,17 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">16dp</item>
     </style>
+    <string name="cal">Calificación</string>
+    <string name="ttl">Marker</string>
+    <string name="des">Descripción</string>
+    <string name="cui">Ibague</string>
+    <string name="com">Comentarios</string>
+    <string name="ca">1</string>
+    <string name="cb">2</string>
+    <string name="cc">3</string>
+    <string name="cd">4</string>
+    <string name="ce">5</string>
+    <string name="descr">Ibagué, conocida como la capital Americana de la música, es una ciudad, ubicada en el centro de Colombia, sobre la Cordillera Central de los Andes entre el Cañón del Combeima y el Valle del Magdalena, en cercanías del Nevado del Tolima. Es la capital del departamento de Tolima, uno de los 32 departamentos que conforman la república de Colombia. Se encuentra a una altitud de 1285 m.s.n.m., tiene una temperatura promedio de 22ºC, su casco urbano se divide políticamente en 13 comunas y su zona rural en más de 17 corregimientos, 144 veredas y 14 inspecciones. Fue fundada el 14 de octubre de 1550 por el capitán español Andrés López de Galarza, lo que la convierte en una de las ciudades más antiguas de América.</string>
+    <string name="tag">tags</string>
 
 </resources>

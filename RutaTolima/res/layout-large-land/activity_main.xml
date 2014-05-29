@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lineadecodigo.rutatolima.MainActivity"
+    tools:context="co.linea.rutatolima.MainActivity"
     tools:ignore="MergeRootFrame" >
 
 <RelativeLayout
@@ -17,99 +17,70 @@
         android:contentDescription="@string/app_name"
         android:scaleType="fitXY"
         android:src="@drawable/vfnd" />
-   
-</RelativeLayout>
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-    <ImageView
-        android:id="@+id/imageView1"
+    <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:src="@drawable/a" />
+        android:stretchColumns="2" >
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginBottom="10dp"
-        android:src="@drawable/b" />
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginBottom="10dp"
-        android:src="@drawable/c" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mda" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_below="@+id/imageView3"
-        android:layout_marginBottom="10dp"
-        android:src="@drawable/d" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mdb" />
+            
+        </TableRow>
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_below="@+id/imageView4"
-        android:src="@drawable/e" />
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/snippet"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_marginTop="26dp"
-        android:text="@string/txtb" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/mdc" />
 
-    <TextView
-        android:id="@+id/snippet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_marginBottom="26dp"
-        android:layout_toRightOf="@+id/imageView1"
-        android:text="@string/txta" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/mdd" />
+            
+        </TableRow>
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_centerVertical="true"
-        android:text="@string/txtc" />
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignTop="@+id/imageView4"
-        android:layout_marginTop="26dp"
-        android:text="@string/txtd" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mde" />
+            
+        </TableRow>
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView5"
-        android:layout_marginTop="24dp"
-        android:layout_toRightOf="@+id/imageView1"
-        android:text="@string/txte" />
+       
+    </TableLayout>
 
-</RelativeLayout>
-
+</RelativeLayout> 
+  
 </FrameLayout>

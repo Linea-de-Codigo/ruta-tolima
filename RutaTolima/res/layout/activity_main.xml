@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lineadecodigo.rutatolima.MainActivity"
+    tools:context="co.linea.rutatolima.MainActivity"
     tools:ignore="MergeRootFrame" >
 
     <LinearLayout
@@ -29,42 +29,57 @@
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
-	        android:layout_height="0dp"
-            android:src="@drawable/ahd"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
             android:onClick="pasarmapa"
-            android:layout_weight="1" />
+            android:src="@drawable/hda" />
 		
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:onClick="pasarmapa"
-            android:src="@drawable/bhd" />
+            android:src="@drawable/hdb" />
         
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:onClick="pasarmapa"
-            android:src="@drawable/chd" />
+            android:src="@drawable/hdc" />
         
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:onClick="pasarmapa"
-            android:src="@drawable/dhd" />
+            android:src="@drawable/hdd" />
         
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:onClick="pasarmapa"
-            android:src="@drawable/ehd" />
+            android:src="@drawable/hde" />
         
     </LinearLayout>
 

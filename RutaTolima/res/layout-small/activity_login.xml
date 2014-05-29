@@ -3,48 +3,46 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lineadecodigo.rutatolima.MainActivity"
+    tools:context="co.linea.rutatolima.MainActivity"
     tools:ignore="MergeRootFrame" >
     
     <ImageView
-	    android:id="@+id/fnd"
-	    android:layout_width="match_parent"
-	    android:layout_height="match_parent"
-	    android:contentDescription="@string/app_name"
-	    android:scaleType="fitXY"
-	    android:src="@drawable/vb" />
+        android:id="@+id/fnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/hdpiv" />
 
 <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-	android:orientation="vertical">
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp"
-        android:onClick="pasar"
-        android:text="@string/txtld" />
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
+        android:layout_marginBottom="21dp"
         android:text="@string/txtlc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="96dp"
+        android:layout_height="105dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ldpilogo" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/editText1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp"
         android:text="@string/txtla"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -53,32 +51,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText2"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="29dp"
+        android:layout_centerVertical="true"
         android:ems="10" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_above="@+id/editText2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
         android:text="@string/txtlb"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="101dp"
+        android:layout_height="32dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="21dp"
+        android:onClick="pasar"
+        android:src="@drawable/ldpiin" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_above="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp"
+        android:layout_marginBottom="18dp"
         android:ems="10"
         android:inputType="textPassword" />
 
 </RelativeLayout>
-
-
 
 </FrameLayout>
