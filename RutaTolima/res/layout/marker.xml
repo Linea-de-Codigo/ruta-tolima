@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marker"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
     <RelativeLayout
+        android:id="@+id/screen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/hdfnd" >
+        android:background="@drawable/hdpiv" >
 
         <TextView
             android:id="@+id/textView1"
@@ -114,12 +116,11 @@
             android:text="@string/descr" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnCaptureScreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:onClick="share"
             android:text="Button" />
 
     </RelativeLayout>
