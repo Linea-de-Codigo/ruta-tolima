@@ -129,14 +129,6 @@
             android:layout_marginTop="24dp"
             android:text="@string/descr" />
 
-        <Button
-            android:id="@+id/capturescreen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:text="Button" />
-
     </RelativeLayout>
     
 </LinearLayout>
